@@ -156,16 +156,16 @@ section {
 .navbar {
   position: fixed;
   top: 16px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: min(94%, 1100px);
+  left: 3%;
+  right: 3%;
+  max-width: 1100px;
+  margin: 0 auto;
   z-index: 1000;
   padding: 14px 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: var(--transition);
-  animation: float2 6s ease-in-out infinite;
   overflow: visible;
 }
 
